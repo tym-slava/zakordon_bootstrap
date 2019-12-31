@@ -1,0 +1,81 @@
+.header {
+    background: url(/images/header-bg.jpg)no-repeat center;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+
+    // Малые девайсы («ландшафтные телефоны», >= 576px)
+    @media (min-width: 300px) { 
+        
+}
+
+// Средние девайсы («таблетки», >= 768px)
+    @media (min-width: 768px) { 
+        
+ }
+
+// Большие девайсы (десктопы, >= 992px)
+    @media (min-width: 992px) { 
+        
+}
+
+
+}
+
+.navbar-brand {
+    margin-right: 300px;
+}
+
+.nav-item a {
+    font-weight: 700;
+    color: var(--blue);
+    transition: all .3s;
+    
+    &:hover {
+        color: var(--red);
+        transform: scale(1.1);
+    }
+}
+.navbar-nav {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+
+.icon-menu {
+    fill: var(--red);
+    width: 30px;
+    height: 30px;
+}
+
+.title-text {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+
+    // Малые девайсы («ландшафтные телефоны», >= 576px)
+    @media (min-width: 300px) { 
+        font-size: 26px;
+}
+
+// Средние девайсы («таблетки», >= 768px)
+    @media (min-width: 768px) { 
+        font-size: 30px;
+ }
+
+// Большие девайсы (десктопы, >= 992px)
+    @media (min-width: 992px) { 
+        font-size: 36px;
+}
+
+
+}
+
+.navbar-toggler {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    z-index: 9;
+}
+   
