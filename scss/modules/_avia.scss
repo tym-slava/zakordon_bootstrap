@@ -1,0 +1,10 @@
+.text-avia {
+    background: white;
+    padding-top: 20px;
+    margin-top: -150px;
+    line-height: 28px;
+
+    @media (max-width: 768px) {
+        margin-top: 1px;
+    }
+}

@@ -5,19 +5,18 @@
     height: 100vh;
 
     // Малые девайсы («ландшафтные телефоны», >= 576px)
-    @media (min-width: 300px) { 
-        
-}
+    @media (min-width: 300px) and (max-width:767px) {
+        // background: url(../images/header-bg-mob.jpg)no-repeat center;
+        // background-size: contain;
+        // max-width: 100%;
+        // height: 100vh;
+    }
 
-// Средние девайсы («таблетки», >= 768px)
-    @media (min-width: 768px) { 
-        
- }
+    // Средние девайсы («таблетки», >= 768px)
+    @media (min-width: 768px) {}
 
-// Большие девайсы (десктопы, >= 992px)
-    @media (min-width: 992px) { 
-        
-}
+    // Большие девайсы (десктопы, >= 992px)
+    @media (min-width: 992px) {}
 
 
 }
@@ -30,12 +29,13 @@
     font-weight: 700;
     color: var(--blue);
     transition: all .3s;
-    
+
     &:hover {
         color: var(--red);
         transform: scale(1.1);
     }
 }
+
 .navbar-nav {
     display: flex;
     align-items: flex-end;
@@ -55,19 +55,19 @@
     text-align: center;
 
     // Малые девайсы («ландшафтные телефоны», >= 576px)
-    @media (min-width: 300px) { 
+    @media (min-width: 300px) {
         font-size: 26px;
-}
+    }
 
-// Средние девайсы («таблетки», >= 768px)
-    @media (min-width: 768px) { 
+    // Средние девайсы («таблетки», >= 768px)
+    @media (min-width: 768px) {
         font-size: 30px;
- }
+    }
 
-// Большие девайсы (десктопы, >= 992px)
-    @media (min-width: 992px) { 
+    // Большие девайсы (десктопы, >= 992px)
+    @media (min-width: 992px) {
         font-size: 36px;
-}
+    }
 
 
 }
@@ -78,4 +78,3 @@
     top: 30px;
     z-index: 9;
 }
-   
