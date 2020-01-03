@@ -1,0 +1,37 @@
+.icon.plicket {
+    width: 25px;
+    height: 25px;
+    margin: 30px 80px;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.icon.phone {
+    width: 25px;
+    height: 25px;
+    margin: 30px 80px;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+
+}
+
+.icon.messangers {
+    width: 20px;
+    height: 20px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
