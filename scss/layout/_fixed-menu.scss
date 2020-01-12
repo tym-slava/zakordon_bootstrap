@@ -1,0 +1,44 @@
+.fixed-nav {
+    position: fixed;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    z-index: 99;
+    
+
+    a {
+        display: block;
+        flex-wrap: wrap;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: rgba($color: #3b4a75, $alpha: 1.0);
+        margin-bottom: 10px;
+        text-decoration: none;
+        transition: all .3s;
+        color: var(--red);
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    a:hover,
+    a:active {
+        color: var(--red);
+        background: var(--blue);
+    }
+
+    a span {
+        transition: all .5s;
+        position: absolute;
+        right: 0px;
+        opacity: 0;
+    }
+
+    a:hover span,
+    a:active span {
+        right: 40px;
+        opacity: 1;
+    }
+
+}
