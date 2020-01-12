@@ -6,10 +6,10 @@
 
     // Малые девайсы («ландшафтные телефоны», >= 576px)
     @media (min-width: 300px) and (max-width:767px) {
-        // background: url(../images/header-bg-mob.jpg)no-repeat center;
-        // background-size: contain;
-        // max-width: 100%;
-        // height: 100vh;
+        background: url(/images/mobile-bg.jpg)no-repeat center;
+        background-size: cover;
+        max-width: 100%;
+        height: 100vh;
     }
 
     // Средние девайсы («таблетки», >= 768px)

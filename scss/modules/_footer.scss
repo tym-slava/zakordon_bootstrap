@@ -1,4 +1,10 @@
 footer {
+    background: grey;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+
     &__telephones {
         display: flex;
         flex-direction: row;
